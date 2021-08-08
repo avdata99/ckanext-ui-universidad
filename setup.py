@@ -16,7 +16,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version='0.0.1',
+    version='0.1.2',
 
     description='''Custom User interface for CKAN ''',
     long_description=long_description,
@@ -26,7 +26,7 @@ setup(
     url='https://github.com/avdata99/ckanext-ui-universidad',
 
     # Author details
-    author='''Andres''',
+    author='''Andres Vazquez Flexes''',
     author_email='''andres@data99.com.ar''',
 
     # Choose your license
@@ -45,9 +45,11 @@ setup(
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
-
 
     # What does your project relate to?
     keywords='''CKAN''',
