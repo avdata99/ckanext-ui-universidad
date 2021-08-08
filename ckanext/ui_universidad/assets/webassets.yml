@@ -1,0 +1,14 @@
+# ui_universidad-js:
+#   filter: rjsmin
+#   output: ckanext-ui_universidad/%(version)s-ui_universidad.js
+#   contents:
+#     - js/ui_universidad.js
+#   extra:
+#     preload:
+#       - base/main
+
+# ui_universidad-css:
+#   filter: cssrewrite
+#   output: ckanext-ui_universidad/%(version)s-ui_universidad.css
+#   contents:
+#     - css/ui_universidad.css
