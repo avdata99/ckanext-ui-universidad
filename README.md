@@ -1,4 +1,4 @@
-[![Tests](https://github.com/avdata99/ckanext-ui_universidad/workflows/Tests/badge.svg?branch=main)](https://github.com/avdata99/ckanext-ui_universidad/actions)
+[![Tests](https://github.com/avdata99/ckanext-ui-universidad/workflows/Tests/badge.svg?branch=main)](https://github.com/avdata99/ckanext-ui-universidad/actions)
 
 # ckanext-ui_universidad
 
@@ -43,7 +43,7 @@ To install ckanext-ui_universidad:
 
 2. Clone the source and install it on the virtualenv
 
-    git clone https://github.com/avdata99/ckanext-ui_universidad.git
+    git clone https://github.com/avdata99/ckanext-ui-universidad.git
     cd ckanext-ui_universidad
     pip install -e .
 	pip install -r requirements.txt
@@ -73,7 +73,7 @@ None at present
 To install ckanext-ui_universidad for development, activate your CKAN virtualenv and
 do:
 
-    git clone https://github.com/avdata99/ckanext-ui_universidad.git
+    git clone https://github.com/avdata99/ckanext-ui-universidad.git
     cd ckanext-ui_universidad
     python setup.py develop
     pip install -r dev-requirements.txt
