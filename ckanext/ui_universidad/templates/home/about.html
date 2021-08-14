@@ -8,11 +8,11 @@
       CKAN para universidades argentinas.
     </p>
     <p>
-      Extensiones:
+      Información del sistema:
       <ul>
-        <li>SIU Harvester v0.3.1 (pySIUData v0.3.5)</li>
-        <li>Dataset Preview v0.3.2</li>
-        <li>UI Universidad v0.1.3</li>
+        {% for k,v in h.ui_uni_system_info() %}
+        <li>{{ k }}: {{ v }}</li>
+        {% endfor %}
       </ul>
     </p>
   </div>
