@@ -16,14 +16,14 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # http://packaging.python.org/en/latest/tutorial.html#version
-    version='0.1.3',
+    version='0.1.4',
 
     description='''Custom User interface for CKAN ''',
     long_description=long_description,
     long_description_content_type="text/markdown",
 
     # The project's main homepage.
-    url='https://github.com/avdata99/ckanext-ui-universidad',
+    url='https://github.com/unckan/ckanext-ui-universidad',
 
     # Author details
     author='''Andres Vazquez Flexes''',
